@@ -2,7 +2,7 @@
   "name": "my-vite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://saadne-notes-app.github.io",
+  "homepage": "http://saadne.github.io/notes-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,14 +12,13 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "bootstrap": "^5.2.3",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.4",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
-    "react-select": "^5.7.0", 
+    "react-select": "^5.7.0",
     "typescript": "^4.9.4",
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
@@ -28,9 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/uuid": "^9.0.0"
+    "@types/uuid": "^9.0.0",
+    "gh-pages": "^4.0.0"
   }
 }
